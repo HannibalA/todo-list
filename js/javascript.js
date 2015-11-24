@@ -1,4 +1,5 @@
-
+$(".btn-success").on("click", function(e) {
+    e.preventDefault();
 
 var newWord, newDate, newNotes, deleteButton, deleteTd;
 
